@@ -21,8 +21,8 @@
 # # [void][System.Reflection.Assembly]::LoadWithPartialName("Microsoft.TeamFoundation.Client")
 # # [void][System.Reflection.Assembly]::LoadWithPartialName("Microsoft.TeamFoundation.Build.Client")
 
-# $serverName = "http://w4bibuild1701:8080/tfs/DefaultCollection"
-# $teamProject = "SIA"
+# $serverName = "http://localhost:8080/tfs/DefaultCollection"
+# $teamProject = "yourproject"
 
 # $tfs = [Microsoft.TeamFoundation.Client.TeamFoundationServerFactory]::GetServer($serverName)
 # $buildserver = $tfs.GetService([Microsoft.TeamFoundation.Build.Client.IBuildServer])
